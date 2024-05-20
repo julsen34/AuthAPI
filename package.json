@@ -1,0 +1,36 @@
+{
+    "name": "authapi",
+    "version": "1.0.0",
+    "description": "Servicio web para registro e inicio de sesión de usuarios utilizando Node.js, Express y MongoDB",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "dev": "nodemon src/server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/julsen34/AuthAPI.git"
+    },
+    "keywords": [
+      "authentication",
+      "registration",
+      "login",
+      "express",
+      "mongodb",
+      "nodejs"
+    ],
+    "author": "Julian Andres Hernandez Poveda",
+    "license": "MIT",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.0",
+      "dotenv": "^16.0.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.13.8"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }
+  
